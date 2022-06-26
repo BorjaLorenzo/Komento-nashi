@@ -1,0 +1,71 @@
+.hero.productos {
+    background-image: url('https://takeaway-dev.es/dunas/img/nuevo/Desktop/04_Productos/01_Todos/Img_productos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+.productos-gestionados{
+    font-size: 3.6vh;
+    text-align: center;
+}
+.bloque-productos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.producto{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+.producto p{
+    font-size: 1.35vh;
+}
+.producto p:last-child{
+    font-family: 'Gotham-Book';
+}
+.producto >div:last-child{
+    display: flex;
+    justify-content: center;
+}
+.arrow-button{
+    width: 0.65vh;
+    display: inline-block;
+}
+
+.bloque-productos.bloque-p-2{
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .arrow-button{
+        width: 1vh;
+    }
+    .bloque-productos{
+        flex-direction: column;
+    }
+    .producto{
+        width: auto;
+        height: auto;
+        gap: 3vh;
+    }
+    .producto p{
+        font-size: 2.35vh;
+    }
+    .boton-colores{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .fs_165vh{
+        font-size: 2.35vh;
+    }
+
+}
+@media (min-width:1440px){
+    .producto{
+        height: 60vh;
+    }
+}

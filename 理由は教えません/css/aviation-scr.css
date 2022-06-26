@@ -1,0 +1,343 @@
+.hero.aviation {
+    background-image: url('../img/nuevo/Desktop/04_Productos/06_Landing_producto/Img_aviation_scr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.pensiones-bloque-1 {
+    font-family: 'Gotham-Book';
+    font-size: 1.35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-bloque {
+    width: 30%;
+}
+
+.sub-bloque.sub1 {
+    font-family: 'Gotham-Bold';
+    font-size: 3.6vh;
+    text-align: right;
+}
+
+.sub-bloque.movil {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vh;
+}
+
+.sub-bloque.movil>p:first-child {
+    margin-bottom: 2vh;
+}
+
+.titulo.azul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3.6vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+
+.titulo.azul p {
+    width: 30vw;
+}
+
+.marron {
+    color: #866C6B;
+}
+
+.titulo.marron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3.6vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+
+.titulo.marron p {
+    width: auto;
+}
+
+.tipo-fondos-pensiones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.bloque-pensiones {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-bottom: 5vh;
+}
+
+.bloque-pensiones>div:first-child {
+    width: 50%;
+}
+
+.bloque-pensiones>div:last-child {
+    width: 50%;
+    margin-right: 5vh;
+}
+
+.bloque-pensiones p {
+    margin-top: 2vh;
+}
+
+.azul {
+    color: #6FB1C8;
+}
+
+.num {
+    font-family: 'Gotham-Book';
+}
+
+.bloque-texto-pensiones p:first-child {
+    font-size: 2.3vh;
+}
+
+.bloque-texto-pensiones p:last-child {
+    font-size: 1.35vh;
+    font-family: 'Gotham-Book';
+}
+
+.bloque-gestores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.bloque-gestor {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    justify-content: flex-start;
+    gap: 5vh;
+}
+
+.bloque-gestor-top {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.bloque-gestor-bot {}
+
+.top-img {
+    width: 40%;
+}
+
+.top-title {
+    width: 50%;
+}
+
+.f135vh {
+    font-size: 1.35vh;
+}
+
+.f120vh {
+    font-size: 1.20vh;
+}
+
+.doble-columna {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.columna {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.35vh;
+    gap: 2vh;
+}
+
+.columna.col1 {
+    align-items: flex-end;
+}
+
+.columna.col2 {
+    align-items: flex-start;
+    font-family: 'Gotham-Book';
+}
+
+.titulo {
+    font-size: 4.6vh;
+    text-align: center;
+}
+
+.bloque-novedades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.novedad {
+    width: 48%;
+}
+
+.novedad>p {
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
+.boton-info {
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+.boton-colores{
+    border-radius: 50px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.col-movil{
+
+}
+.col-movil>p:first-child{
+
+}
+.col-movil>p:last-child{
+    font-family: 'Gotham-Book';
+}
+
+
+
+
+
+
+
+@media (min-width:1024px){
+
+    .novedad{
+        width: 40%;
+    }
+    .bloque-novedades{
+        justify-content: space-evenly;
+    }
+    .boton-colores{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo.mtb_10vh{
+        margin-top: 5vh;
+    }
+    .mtb_10vh{
+        margin-top: 0;
+        margin-bottom: 5vh;
+    }
+    .boton-colores{
+        border-radius: 50px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .novedad>p{
+        margin-top: 5vh;
+    }
+    .novedad{
+        width: auto;
+    }
+    .bloque-novedades{
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .doble-columna{
+        flex-direction: column;
+        gap: 3vh;
+        font-size: 2.4vh;
+    }
+    .pensiones-bloque-1 {
+        flex-direction: column;
+    }
+
+    .sub-bloque {
+        width: auto;
+    }
+
+    .sub-bloque.sub1 {
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .sub-bloque.sub2 p:last-child {
+        margin-bottom: 2vh;
+    }
+
+    .sub-bloque.movil {
+        font-size: 2vh;
+    }
+
+    .titulo.azul p {
+        width: auto;
+    }
+
+    .tipo-fondos-pensiones {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .bloque-pensiones {
+        width: auto;
+    }
+
+    .bloque-pensiones>div:last-child {
+        margin-right: 0px;
+    }
+
+    .bloque-texto-pensiones p:first-child {
+        font-size: 3vh;
+    }
+
+    .bloque-texto-pensiones p:last-child {
+        font-size: 1.8vh;
+    }
+
+    .bloque-gestor {
+        width: auto;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .f135vh {
+        font-size: 2.35vh;
+    }
+
+    .top-img {
+        width: 20%;
+    }
+
+    .top-title {
+        width: auto;
+    }
+
+    .f120vh {
+        font-size: 1.9vh;
+    }
+}

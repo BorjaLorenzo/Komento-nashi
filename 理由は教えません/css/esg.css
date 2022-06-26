@@ -1,0 +1,278 @@
+.hero.esg {
+    background-image: url('../img/nuevo/Desktop/07_ESG/Img_ESG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+.pretexto{
+    font-family: 'Gotham-Book';
+    font-size: 1.4vh;
+    text-align: center;
+    width: 70%;
+}
+.bloque-esg{
+    display: flex;
+    justify-content: space-between;
+}
+.eco{
+    width: 30%;
+    font-family: 'Gotham-Book';
+    font-size: 1.4vh;
+}
+.eco>div{
+    
+}
+span.blue{
+    color: #6FB1C8;
+    
+}
+span{
+    font-family: 'Gotham-Book';
+}
+.bloques-alternativos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alternativo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2vh;
+}
+.icono-alternativo {
+    width: 3vh;
+}
+.alternativo a {
+    font-family: 'Gotham-Book';
+    text-decoration: underline;
+}
+.titulo-icono{
+    font-size: 1.65vh;
+}
+.aux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo.izquierda{
+
+    font-size: 2.7vh;
+    width: 1230px;
+
+}
+.bloque-gestores{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 5%;
+    justify-content: center;
+}
+.bloque-gestor{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* height: 35vh; */
+    justify-content: flex-start;
+    gap: 5vh;
+}
+.bloque-gestor-top{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.top-img{
+    width: 40%;
+}
+
+.f135vh {
+    font-size: 2vh;
+}
+.f120vh {
+    font-size: 1.40vh;
+}
+.top-title {
+    width: 50%;
+}
+.num {
+    font-family: 'Gotham-Book';
+}
+.title {
+    font-size: 4.6vh;
+    text-align: center;
+}
+
+.mtb_10vh {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.bloque-novedades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.novedad {
+    width: 40%;
+}
+.novedad>p {
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+.boton-info {
+    display: flex;
+    justify-content: center;
+}
+
+.mtb_10vh {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.boton-colores {
+    border-radius: 50px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:1024px){
+
+    .novedad{
+        width: 40%;
+    }
+    .bloque-novedades{
+        justify-content: space-evenly;
+    }
+    .boton-colores{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-icono {
+        font-size: 3vh;
+    }
+    .alternativo{
+        width: auto;
+        margin-top: 5vh;
+    }
+    .pretexto{
+        font-size: 2vh;
+    }
+    .eco{
+        width: auto;
+        font-size: 2vh;
+    }
+    .bloque-esg{
+        flex-direction: column;
+    }
+    .titulo.mtb_10vh{
+        margin-top: 5vh;
+    }
+    .mtb_10vh{
+        margin-top: 0;
+        margin-bottom: 5vh;
+    }
+    .boton-colores{
+        border-radius: 50px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .novedad>p{
+        margin-top: 5vh;
+    }
+    .novedad{
+        width: auto;
+    }
+    .bloque-novedades{
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .doble-columna{
+        flex-direction: column;
+        gap: 3vh;
+        font-size: 2.4vh;
+    }
+    .pensiones-bloque-1 {
+        flex-direction: column;
+    }
+
+    .sub-bloque {
+        width: auto;
+    }
+
+    .sub-bloque.sub1 {
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .sub-bloque.sub2 p:last-child {
+        margin-bottom: 2vh;
+    }
+
+    .sub-bloque.movil {
+        font-size: 2vh;
+    }
+
+    .titulo.azul p {
+        width: auto;
+    }
+
+    .tipo-fondos-pensiones {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .bloque-pensiones {
+        width: auto;
+    }
+
+    .bloque-pensiones>div:last-child {
+        margin-right: 0px;
+    }
+
+    .bloque-texto-pensiones p:first-child {
+        font-size: 3vh;
+    }
+
+    .bloque-texto-pensiones p:last-child {
+        font-size: 1.8vh;
+    }
+
+    .bloque-gestor {
+        width: auto;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .f135vh {
+        font-size: 2.35vh;
+    }
+
+    .top-img {
+        width: 20%;
+    }
+
+    .top-title {
+        width: auto;
+    }
+
+    .f120vh {
+        font-size: 1.9vh;
+    }
+    .titulo.izquierda{
+        width: auto;
+    }
+}

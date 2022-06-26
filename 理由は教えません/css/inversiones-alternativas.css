@@ -1,0 +1,62 @@
+.hero.alternativas {
+    background-image: url('https://takeaway-dev.es/dunas/img/nuevo/Desktop/04_Productos/05_Administrado_Fondos_Pensiones/Img_inversiones.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.bloques-alternativos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alternativo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+.img-alternativo {}
+
+.icono-alternativo {
+    width: 3vh;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.mas-info {
+    display: flex;
+    justify-content: center;
+}
+
+.alternativo a {
+    font-family: 'Gotham-Book';
+    text-decoration: underline;
+}
+
+.bloques-alternativos.center {
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .bloques-alternativos {
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .icono-alternativo{
+        width: 5vh;
+    }
+    .alternativo{
+        width: auto;
+    }
+    .container-small.grey{
+        background-color: white;
+    }
+}

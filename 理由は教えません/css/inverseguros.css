@@ -1,0 +1,494 @@
+.hero.equipo-comercial {
+    background-image: url('../img/nuevo/Desktop/03_Areas_Negocio/01_Asset_Management/Img_asset_management.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+.acumulamos-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding-block: 70px;
+}
+.acumulamos-container .title-container{
+    width: 100%;
+    max-width: 390px;
+}
+.acumulamos-container .title{
+    font-family: 'Gotham-Book';
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+    text-align: right;
+}
+.acumulamos-container .text-container, .acumulamos-container .list-container{
+    width: 100%;
+    max-width: 285px;
+}
+.acumulamos-container .text, .acumulamos-container .list-item{
+    font-family: 'Gotham-Book';
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A171B;
+    margin-bottom: 1rem;
+}
+.max-width-1230{
+    max-width: 1230px;
+    width: 100%;
+    margin-inline: auto;
+}
+.acumulamos-container .list-item{
+    list-style-position: inside;
+}
+
+
+
+/* GAMA FONDOS */
+
+.gama-fondos{
+    background-color: #EFEDED;
+}
+.gama-fondos__container{
+    width: 100%;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+.gama-fondos__container .title{
+    padding-top: 60px;
+    font-family: 'Gotham-Bold';
+    font-size: 2.7vh;
+    color: #000;
+    width: 20%;
+}
+.gama-fondos__container .subtitle{
+    padding-top: 60px;
+    font-family: 'Gotham-Bold';
+    font-size: 3.6vh;
+    color: #00567F;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.gama-fondos__container .gama_fondos__content-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 31px;
+}
+
+.gama-fondos__container .gama_fondos__content-container .content{
+    width: 48%;
+    display: flex;
+    margin-bottom: 62px;
+    gap: 30px;
+}
+.gama-fondos__container .gama_fondos__content-container .content:nth-child(odd){
+    justify-content: flex-end;
+}
+.gama-fondos__container .gama_fondos__content-container .content:nth-child(even){
+    justify-content: flex-start;
+}
+.gama-fondos__container .gama_fondos__content-container .content .image-container{
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 250px;
+    gap: 30px;
+}
+.gama-fondos__container .gama_fondos__content-container .content h4{
+    font-family: 'Gotham-Book';
+    font-size: 1.5vh;
+    color: #1A171B;
+    margin-bottom: 34px;
+}
+.gama-fondos__container .gama_fondos__content-container .content h4 .texto-azul{
+    font-family: 'Gotham-Bold';
+    color: #00567F;
+}
+.gama-fondos__container .gama_fondos__content-container .content p{
+    font-family: 'Gotham-Bold';
+    font-size: 1.1vh;
+    color: #1A171B;
+    line-height: 22px;
+}
+.gama-fondos__container .gama_fondos__content-container .content .not-bold{
+    font-family: 'Gotham-Book';
+    font-size: 1vh;
+    color: #1A171B;
+    line-height: 19px;
+}
+
+/* GAMA FONDOS */
+
+
+/* DUNAS SELECCION */
+.dunas-seleccion{
+    width: 100%;
+    max-width: 1230px;
+    margin-inline: auto;
+    padding-bottom: 83px;
+}
+.dunas-seleccion .title{
+    padding-top: 60px;
+    font-family: 'Gotham-Bold';
+    font-size: 3.6vh;
+    color: #6FB1C8;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.dunas-seleccion .dunas-seleccion__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 31px;
+    margin-bottom: 54px;
+}
+
+.dunas-seleccion .dunas-seleccion__container .content{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 62px
+}
+.dunas-seleccion .dunas-seleccion__container .content:nth-child(odd){
+    justify-content: flex-end;
+}
+.dunas-seleccion .dunas-seleccion__container .content:nth-child(even){
+    justify-content: flex-start;
+}
+.dunas-seleccion .dunas-seleccion__container .content .image-container{
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 250px;
+}
+.dunas-seleccion .dunas-seleccion__container .content h4{
+    font-family: 'Gotham-Book';
+    font-size: 1.5vh;
+    color: #1A171B;
+}
+.dunas-seleccion .dunas-seleccion__container .content:not(:last-child) h4{
+    margin-bottom: 34px;
+
+}
+.dunas-seleccion .dunas-seleccion__container .content h4 .texto-azul{
+    font-family: 'Gotham-Bold';
+    color: #6FB1C8;
+}
+.dunas-seleccion .dunas-seleccion__container .content .subtitle{
+    font-family: 'Gotham-Book';
+    color: #6FB1C8;
+    font-size: 1.35vh;
+}
+.dunas-seleccion .dunas-seleccion__container .content p{
+    font-family: 'Gotham-Bold';
+    font-size: 1.1vh;
+    color: #1A171B;
+    line-height: 22px;
+    max-width: 280px;
+}
+.dunas-seleccion .dunas-seleccion__container .content .not-bold{
+    font-family: 'Gotham-Book';
+    font-size: 1vh;
+    color: #1A171B;
+    line-height: 19px;
+}
+.dunas-seleccion .btn-center{
+    margin-inline: auto;
+    display: block;
+}
+/* DUNAS SELECCION */
+
+
+
+/* EQUIPO GESTOR */
+.equipo-gestor{
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 157px;
+}
+.equipo-gestor .equipo-gestor__container{
+    width: 100%;
+    max-width: 1230px;
+    margin-inline: auto;
+
+}
+.equipo-gestor .equipo-gestor__container .title{
+    color: #FFFFFF;
+    font-family: 'Gotham-Bold';
+    font-size: 2.7vh;
+    padding-top: 76px;
+    width: 20%;
+    margin-bottom: 100px;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-content{
+    width: 30%;
+    margin-bottom: 50px;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info .image-container{
+    border-radius: 0px 130px 100px 0px / 0px 90px 66px 0px;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info h6{
+    font-family: 'Gotham-Book';
+    font-size: 1.35vh;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info p{
+    font-family: 'Gotham-Book';
+    font-style: italic;
+    font-size: 1.35vh;
+}
+.equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-details p{
+    font-family: 'Gotham-Book';
+    font-size: 1.1vh;
+    font-weight: 100;
+}
+/* EQUIPO GESTOR */
+
+
+
+/* PREMIOS */
+.premios{
+    width: 100%;
+    max-width: 1230px;
+    margin-inline: auto;
+    margin-block: 100px;
+}
+.premios .title{
+    font-family: 'Gotham-Bold';
+    font-size: 2.7vh;
+    color: #000000;
+    margin-bottom: 56px;
+    width: 20%;
+}
+.premios .premios-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px
+}
+.premios .premios-container .premio{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.premios .premios-container .premio .image-container{
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 333px;
+    padding-left: 1rem;
+    margin-bottom: 50px;
+}
+.premios .premios-container .premio .image-container .icono{
+    width: 48px;
+    height: 39px;
+    margin-bottom: 1rem;
+}
+.premios .premios-container .premio .image-container img:not(.icono){
+    width: 150px;
+}
+.premios .premios-container .premio .premio-content{
+    height: 120px;
+}
+.premios .premios-container .premio .premio-content h6{
+    font-family: 'Gotham-Bold';
+    font-size: 1.35vh;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+.premios .premios-container .premio .premio-content p{
+    font-family: 'Gotham-Book';
+    font-size: 1.35vh;
+    color: #000000;
+    padding-left: 1rem;
+}
+.premios .disclaimer{
+    width: 100%;
+    max-width: 1020px;
+    margin-inline: auto;
+    font-family: 'Gotham-Bold';
+    font-size: 1.1vh;
+    margin-top: 100px;
+}
+.premios .disclaimer .disc-title{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.premios .disclaimer .disc-title .black-arrow{
+    transform: rotate(90deg);
+}
+.premios .disclaimer .disc-content{
+    font-family: 'Gotham-Book';
+    font-size: 0.9vh;
+    visibility: visible;
+    opacity: 1;
+    max-height: 100%;
+    transition: .3s all ease-in-out;
+}
+.premios .disclaimer .disc-content.hide{
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: .3s all ease-in-out;
+}
+/* PREMIOS */
+
+
+
+@media (max-width: 768px){
+    .premios .premios-container .premio .premio-content{
+
+        height: auto;
+    }
+    .image-container{
+        min-width: 75px;
+        max-width: 75px;
+        min-height: 75px;
+        max-height: 75px;
+    }
+    .image-container>img{
+        height: 100%;
+    }
+    .acumulamos-container{
+        flex-direction: column;
+        width: 95%;
+    }
+    .acumulamos-container .title{
+        text-align: center;
+        font-size: 3.6vh;
+        line-height: 28px;
+    }
+    .acumulamos-container .text-container, .acumulamos-container .list-container{
+        width: 90%;
+        max-width: 90%;
+        margin-inline: auto;
+    }
+    .acumulamos-container .text-container .text, .acumulamos-container .list-container .list-item{
+        font-size: 2.7vh;
+    }
+    .gama-fondos .title{
+        width: 30%;
+        margin-left: 5%;
+    }
+    .gama-fondos__container .gama_fondos__content-container{
+        flex-direction: column;
+        width: 90%;
+        margin-inline: auto;
+    }
+    .gama-fondos__container .gama_fondos__content-container .content{
+        width: 100%;
+        gap: 10px;
+    }
+    .gama-fondos__container .gama_fondos__content-container .content h4{
+        font-size: 2.7vh;
+        margin-bottom: .5rem;
+    }
+    .gama-fondos__container .gama_fondos__content-container .content p{
+        font-size: 1.9vh;
+        line-height: 16px;
+    }
+    .gama-fondos__container .gama_fondos__content-container .content .not-bold{
+        font-size: 1.6vh;
+        line-height: 16px;
+    }
+    .dunas-seleccion .dunas-seleccion__container{
+        flex-direction: column;
+    }
+    .dunas-seleccion .dunas-seleccion__container .content{
+        width: 90%;
+        margin-inline: auto;
+        gap: 10px
+    }
+    .dunas-seleccion .dunas-seleccion__container .content h4{
+        font-size: 2.7vh;
+        margin-bottom: .5rem;
+    }
+    .dunas-seleccion .dunas-seleccion__container .content:not(:last-child) h4{
+        margin-bottom: .5rem;
+    }
+    .dunas-seleccion .dunas-seleccion__container .content p{
+        font-size: 1.9vh;
+        line-height: 16px;
+    }
+    .dunas-seleccion .dunas-seleccion__container .content .not-bold{
+        font-size: 1.6vh;
+        line-height: 16px;
+    }
+    .dunas-seleccion .btn-center{
+        width: 70%;
+        margin-inline: auto;
+    }
+    .equipo-gestor .equipo-gestor__container .title{
+        margin-left: 5%;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container{
+        flex-wrap: nowrap;
+        gap: 0px;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-content{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info{
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info h6, .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info p{
+        font-size: 2.6vh;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-details p{
+        font-size: 2.4vh;
+    }
+    .equipo-gestor .equipo-gestor__container .equipo-details__container .equipo-info .image-container{
+        width: 75px;
+        height: 75px;
+    }
+    .equipo-gestor .equipo-gestor__container .swiper{
+        width: 90%;
+    }
+    .premios{
+        width: 90%;
+    }
+    .premios .premios-container{
+        flex-direction: column;
+    }
+    .premios .premios-container .premio{
+        width: 100%;
+    }
+    .premios .premios-container .premio .image-container{
+        margin-bottom: 30px;
+    }
+    .premios .premios-container .premio .premio-content h6{
+        font-size: 2.7vh;
+    }
+    .premios .premios-container .premio .premio-content p{
+        font-size: 2.5vh;
+    }
+    .disclaimer .disc-title h6{
+        font-size: 2vh;
+    }
+    .premios .disclaimer .disc-content{
+        font-size: 1.5vh;
+    }
+}

@@ -1,0 +1,88 @@
+.hero.fondos-pensiones {
+    background-image: url('https://takeaway-dev.es/dunas/img/nuevo/Desktop/04_Productos/03_Gestionados_Fondos_Pensiones/Img_fondos_pensiones.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.productos-gestionados {
+    font-size: 3.6vh;
+    text-align: center;
+}
+
+.blue {
+    color: #6FB1C8;
+}
+
+a.ver-fondo {
+    color: #6FB1C8;
+    font-family: 'Gotham-Book';
+    font-size: 1.35vh;
+    
+    bottom: 0px;
+}
+
+a.ver-fondo>div.arrow-button {
+    width: .65vh;
+}
+
+.bloque-icono {
+    width: 22%;
+    margin-bottom: 5vh;
+    height: 32vh;
+    position: relative;
+}
+
+.iconos-estrategia {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 0px;
+}
+
+.iconos-estrategia.euro {
+    justify-content: center;
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .bloque-icono {
+        height: 32vh;
+    }
+}
+@media (min-width:1280px){
+    .bloque-icono {
+        height: 38vh;
+    }
+}
+
+@media (min-width:1440px) {
+    .bloque-icono {
+        height: 34vh;
+    }
+}
+@media(min-width:1920px) {
+    .bloque-icono {
+        height: 41vh;
+    }
+}
+@media (max-width: 768px) {
+    .iconos-estrategia {
+        flex-direction: column;
+    }
+
+    .bloque-icono {
+        width: auto;
+        height: auto;
+    }
+    .texto-icono{
+        padding-bottom: 5vh;
+    }
+    a.ver-fondo{
+        font-size: 2.35vh;
+    }
+}

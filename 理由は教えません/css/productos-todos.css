@@ -1,0 +1,7 @@
+.hero.dunas {
+    background-image: url('https://takeaway-dev.es/dunas/img/nuevo/04_Productos/01_Todos/Img_productos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}

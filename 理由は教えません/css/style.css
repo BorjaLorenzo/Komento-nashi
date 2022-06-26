@@ -1,0 +1,1787 @@
+*,
+
+html,
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+img {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .75;
+}
+
+button:active {
+    opacity: .50;
+}
+
+
+
+
+a:link {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+
+a:visited {
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+
+.container {
+
+    font-family: 'Gotham-Black';
+
+}
+
+
+
+.hero {
+
+    background-image: url("https://takeaway-dev.es/dunas/img/nuevo/Desktop/01_Home/Img_cabecera.jpg");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    position: relative;
+    background-position: bottom;
+
+}
+
+
+
+.hero>h1 {
+
+    font-family: 'Gotham-Bold';
+
+    font-size: 4vw;
+    width: 45vw;
+
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cajas {
+
+    position: absolute;
+
+    bottom: 0px;
+
+    right: 0px;
+
+    display: flex;
+
+    flex-direction: row;
+    cursor: pointer;
+
+
+}
+
+
+
+.caja {
+
+    padding: 2vw;
+
+    background-color: black;
+
+    opacity: .5;
+    width: 16vw;
+}
+
+.caja:first-child {
+    opacity: .8;
+}
+.caja:first-child:hover {
+    opacity: .7;
+}
+.caja:first-child:active {
+    opacity: .5;
+}
+
+.caja:nth-child(2) {
+    opacity: .9;
+}
+.caja:nth-child(2):hover {
+    opacity: .8;
+}
+.caja:nth-child(2):active {
+    opacity: .5;
+}
+
+.caja:last-child {
+    opacity: 1;
+}
+.caja:last-child:hover {
+    opacity: .9;
+}
+.caja:last-child:active {
+    opacity: .5;
+}
+
+
+
+.caja>p {
+
+    opacity: 1;
+
+    color: white;
+
+
+
+}
+
+.nav-img {
+    width: 10vw;
+    cursor: pointer;
+}
+
+
+
+.caja .img-container {
+
+    width: 5vh;
+    margin-bottom: 2vh;
+
+}
+
+
+
+.texto-caja-negra-hero {
+
+    font-size: 2vh;
+    font-family: 'Gotham-Book';
+}
+
+
+
+.titulo-caja-negra-hero {
+
+    font-size: 2.5vh;
+
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+
+
+.nav {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    padding: 3vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Gotham-Book';
+    z-index: 999999;
+    transition: top 1s;
+}
+
+
+
+.nav-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    align-items: flex-end;
+
+}
+
+.nav-links-b1 {
+
+    font-size: 1.5vh;
+
+}
+
+.nav-links-b1>a:hover {
+    opacity: .9;
+}
+
+
+.nav-links-b2 {
+    font-size: 1.7vh;
+    display: flex;
+    gap: 36px;
+}
+
+.nav-links-b2>a:hover {
+    opacity: .8;
+}
+
+.idioma-seleccionado {
+    font-family: 'Gotham-Bold';
+}
+
+.container-small {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-small.white {
+    background-color: white;
+    position: relative;
+}
+
+.container-small.grey {
+    background-color: #EFEDED;
+    /* position: relative; */
+}
+
+
+.container-small.white.white-video::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 45vh;
+    width: 100%;
+    background-color: black;
+
+}
+
+.container-small.white.white-video.capa::before {
+    height: 45vh;
+    background-color: #EFEDED;
+}
+
+.container-small-width {
+    max-width: 1230px;
+}
+
+.s-home-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding-top: 82px;
+    padding-bottom: 102px;
+}
+
+.img-container-dunas {
+    width: 50%;
+}
+
+.texto-dunas {
+    width: 50%;
+    margin-left: 31px;
+}
+
+.texto-dunas p {
+    font-family: 'Gotham-Book';
+    font-size: 2.1vh;
+    margin-bottom: 50px;
+}
+
+.texto-dunas button {
+    border-radius: 33px;
+    font-size: 2.1vh;
+    font-family: 'Gotham-Bold';
+    background-color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.arrow-button {
+    width: 1vh;
+    display: inline-block;
+}
+
+.arrow-button.blue {}
+
+.circulo {
+    background-color: white;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circulo-interior>p:first-child {
+    font-family: 'Gotham-Bold';
+    font-size: 3.35vh;
+    margin-bottom: 20px;
+}
+
+.circulo-interior>p:last-child {
+    font-family: 'Gotham-Book';
+    font-size: 1.7vh;
+}
+
+.s-home-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.p-datos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gotham-Book';
+    font-size: 12px;
+    padding-bottom: 65px;
+}
+
+.video-home {
+    position: relative;
+    width: 63vw;
+}
+
+.video-home video {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 5px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.video-home div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.video-home div img:hover {
+    transform: scale(1.1);
+}
+
+.video-home div img {
+    transition: .3s all ease-in-out;
+}
+
+.s-home-3 {
+    margin-bottom: 131px;
+    display: flex;
+    justify-content: center;
+}
+
+.s-home-4 {
+    padding-block: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-inline: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.s-home-4>div {
+    width: 46%;
+}
+
+.s-home-4>div:nth-child(odd) {
+    padding-left: 106px;
+}
+
+.s-home-4>div:nth-child(even):not(:nth-child(2)) {
+    padding-right: 106px;
+}
+
+.boton-colores {
+    border-radius: 33px;
+    font-size: 2.1vh;
+    font-family: 'Gotham-Bold';
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    ;
+}
+
+.boton-colores.b1 {
+    background-color: #6FB1C8;
+}
+
+.boton-colores.b2 {
+    background-color: #6FB1C8;
+}
+
+.boton-colores.b3 {
+    background-color: #50748A;
+}
+
+.boton-colores.b4 {
+    background-color: #286F45;
+}
+
+.boton-colores.b5 {
+    background-color: #836B67;
+}
+
+.boton-colores.bb {
+    background-color: black;
+}
+
+.title>quote>span {
+    font-family: 'Gotham-Bold';
+}
+
+.bloque p {
+    font-family: 'Gotham-Book';
+    font-size: 2.1vh;
+    height: 20vh;
+}
+
+.bloque>div:first-child {
+    margin-bottom: 3vh;
+    width: 65%;
+}
+
+.bloques-actualidad {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 5vh;
+
+}
+
+.bloque-actualidad {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.bloque-actualidad:hover {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px;
+}
+/* .bloque-actualidad:active{
+    opacity: .7;
+} */
+
+.bloques-actualidad img {
+    width: 14vw;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.bloque-actualidad.bloque-primero {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.titulo-actualidad {
+    font-size: 4.5vh;
+    font-family: 'Gotham-Bold';
+    margin-left: 31px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.bloque-texto {
+    height: 12vh;
+    font-size: 1.7vh;
+}
+
+.bloque-texto-fecha {
+    padding-bottom: 40px;
+    font-size: 1.7vh;
+}
+
+.bloques-actualidad p {
+    font-family: 'Gotham-Book';
+}
+
+.textos-bloque {
+    width: 14vw;
+}
+
+.disclaimer>p {
+    font-family: 'Gotham-Book';
+    margin-right: 20px;
+}
+
+.disclaimer {
+    font-size: 1.2vh;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.disclaimer-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.disclaimer-titulo>p:first-child {
+    font-size: 1.5vh;
+    margin-bottom: 5px;
+}
+
+.disclaimer-titulo>.arrow-button img {
+    transform: rotate(90deg);
+    transition: .3s all;
+}
+
+.logo-footer img {
+    filter: invert(100%);
+}
+
+.logo-footer {
+    margin-top: 73px;
+    margin-bottom: 56px;
+    width: 16vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.bloques-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5vw;
+}
+
+.bloques-footer div {
+    width: 10vw;
+    font-size: 1.3vh;
+    margin-bottom: 35px;
+    font-family: 'Gotham-Bold';
+}
+
+.bloques-footer div p:first-child {}
+
+.bloques-footer div p:last-child {
+    font-family: 'Gotham-Book';
+    margin-top: 10px
+}
+
+.ultimo {
+    font-family: 'Gotham-Book';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+    font-size: 1.3vh;
+}
+
+.hero.dunas {
+    background-image: url('https://takeaway-dev.es/dunas/img/nuevo/02_Dunas_Capital/01_Quienes_somos/Img_quienes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.historial {
+    /* position: absolute;
+    bottom: 0px; */
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 1.5vh;
+    font-family: 'Gotham-Book';
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.s-dunas {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contenido-quienes-1 {
+    font-family: 'Gotham-Book';
+    width: 40vw;
+}
+
+.contenido-estrategia-1 {
+    font-family: 'Gotham-Book';
+    width: 42vw;
+}
+
+.contenido-quienes-1>div:first-child {
+    text-align: center;
+}
+
+.contenido-estrategia-1>div:first-child {
+    text-align: center;
+}
+
+.autor {
+    border-left: 1px solid black;
+    height: 14vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.4vh;
+
+}
+
+.autor>p {
+    margin-left: 2vw;
+}
+
+.contenido-quienes-1>div:first-child>p {
+    font-size: 3.6vh;
+}
+
+.contenido-estrategia-1>div:first-child>p {
+    font-size: 3.6vh;
+}
+
+.contenido-quienes-1>div:first-child>p>span {
+    font-family: 'Gotham-Black';
+}
+
+.texto-sobre-circulos {
+    font-family: 'Gotham-Book';
+    font-size: 1.5vh;
+    font-size: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1vh;
+    margin-bottom: 5vh;
+}
+
+.disclaimer>span {
+    font-family: 'Gotham-Book';
+}
+
+.texto-sobre-circulos>div {
+    width: 31%;
+}
+
+.texto-sobre-circulos>div>p {
+    margin-bottom: 2vh;
+}
+
+.p-datos.black {
+    color: black;
+    padding-bottom: 0px;
+}
+
+.hero.valores {
+    background-image: url('../img/nuevo/Desktop/02_Dunas_Capital/02_Vision_Valores/Img_vision_valores.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.titulo.izquierda {
+    margin-top: 7vh;
+    font-size: 2.7vh;
+    width: 1230px;
+    margin-bottom: 5vh;
+}
+
+.titulo.verde {
+    color: #2F7149;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3.6vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+
+.titulo.verde p {
+    width: 30vw;
+}
+
+.numero-verde {
+    color: #2F7149;
+    font-family: 'Gotham-Bold';
+    font-size: 1.7vh;
+}
+
+.lista-img {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 5vh;
+    justify-content: space-around;
+}
+
+.lista-img>div:first-child {
+    width: 50vh;
+    font-family: 'Gotham-Book';
+}
+
+.lista-img>div:first-child div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 1vw;
+    margin-bottom: 1vh;
+    font-size: 1.35vh;
+}
+
+.lista-img>div:last-child {
+    width: 50vh;
+}
+
+.v-texto {
+    font-size: 1.35vh;
+}
+
+.v-texto p:last-child {
+    font-family: 'Gotham-Book';
+
+}
+
+.img-lista-valores {
+    width: 50vh;
+}
+
+.bloque-v-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7vh;
+}
+
+.valores-1 {
+    margin-bottom: 3vh;
+}
+
+.valores-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+    gap: 2vw;
+    justify-content: space-around;
+}
+
+.valores-2>div {
+    width: 50vh;
+}
+
+.hero.nuestra-estrategia {
+    background-image: url('../img/nuevo/Desktop/02_Dunas_Capital/03_Estrategia/Img_estrategia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.iconos-estrategia {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7vh;
+}
+
+.bloque-icono {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    gap: 2vh;
+}
+
+.bloque-icono>div {
+    width: 3vw;
+}
+
+.titulo-icono {
+    font-size: 1.35vh;
+    font-family: 'Gotham-Bold';
+}
+
+.texto-iconos {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-icono {
+    font-size: 1.35vh;
+    font-family: 'Gotham-Book';
+}
+
+.texto-sobre-iconos {
+    margin-top: 7vh;
+    font-size: 1.35vh;
+    font-family: 'Gotham-Book';
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.texto-adn {
+    margin-top: 7vh;
+    font-size: 1.35vh;
+    font-family: 'Gotham-Book';
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.nuestra.estrategia.bloque-n-e {
+    margin-bottom: 2vh;
+}
+
+/* equipo-comercial.php */
+.hero.equipo-comercial {
+    background-image: url('../img/nuevo/Desktop/02_Dunas_Capital/04_Equipo/Img_equipo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.nombre-socio {}
+
+.definicion-socio {
+    font-family: 'Gotham-Book';
+}
+
+.socios-ejecutivos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.socio {
+    width: 30%;
+    font-size: 1.35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.boton-equipo>div:first-child {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.bloque-botones {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+    margin-bottom: 10vh;
+}
+
+.boton-equipo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-equipo>.boton-colores {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-info {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circulo-info:hover {
+    opacity: .7;
+}
+
+.circulo-blanco {
+    font-size: 4vh;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    font-family: none;
+
+}
+
+.circulo-info-texto p:first-child {
+    font-size: 1.5vh;
+    font-family: 'Gotham-Book';
+    text-align: center;
+}
+
+.circulo-info-texto p:last-child {
+    font-size: 1.2vh;
+}
+
+.circulo-info-texto {
+    margin-bottom: 1vh;
+}
+
+.circulo-info-texto>div {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 1%;
+}
+
+.circulo-info-texto>div>.arrow-button {
+    position: absolute;
+    right: 3%;
+}
+
+.book {
+    font-family: 'Gotham-Book';
+}
+
+.inline-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-size: 4vh;
+    text-align: center;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1230px;
+}
+
+.buscador>div {
+    width: 3vh;
+    cursor: pointer;
+}
+
+.buscador>select {
+    height: 5vh;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 16%;
+    height: 20px;
+    border-bottom: black solid 1px;
+}
+
+.pre-disclaimer {
+    width: 1230px;
+    display: flex;
+    justify-content: center;
+}
+
+.disc-width {
+    width: 92%;
+}
+
+.disc-content {
+    font-family: 'Gotham-Book';
+    font-size: 1.2vh;
+    visibility: visible;
+    opacity: 1;
+    max-height: 100%;
+    transition: .3s all ease-in-out;
+}
+
+.disc-content.hide {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: .3s all ease-in-out;
+}
+
+.paginacion {}
+
+.paginacion>.enlaces {
+    font-family: 'Gotham-Book';
+}
+
+.enlances {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2vh;
+    font-family: 'Gotham-Book';
+}
+
+.enlances>a:hover {
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+
+.enlances>a.selected:hover {
+    padding-bottom: 0px;
+}
+
+.enlances>div:hover {
+    border-bottom: black solid 3px;
+    padding-bottom: 3px;
+}
+
+
+.enlances>div {
+    width: 1vh;
+    cursor: pointer;
+}
+
+a.selected {
+    font-size: 3vh;
+    font-family: 'Gotham-Black';
+    text-decoration: underline;
+}
+
+.blanco {
+    color: white;
+}
+
+/*
+    /////////////////////////SIDEBAR/////////////////////////
+*/
+
+
+#menu {
+    left: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 111;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.25s;
+    position: absolute;
+}
+
+#menu:hover {
+    transform: rotate(90deg);
+    color: #FF9900;
+}
+
+#lgMenu,
+#lgMenulm2,
+#lgMenulm3 {
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: -400px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    position: absolute;
+    z-index: 9999999;
+    opacity: 0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    font-family: 'Gotham-Book';
+}
+
+#exit {
+    position: absolute;
+    right: 10px;
+    padding: 0px;
+    top: -10px;
+    font-size: 4em;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+#exit:hover {
+    color: #FF9900;
+}
+
+#lgMenulm2.enter {
+    margin-left: 25%;
+}
+
+#lgMenulm3.enter {
+    margin-left: 50%;
+}
+
+#lgMenu.enter,
+#lgMenulm2.enter,
+#lgMenulm3.enter {
+    opacity: 1;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    border-right: solid 2px black;
+}
+
+.luto {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    z-index: 999999;
+    opacity: .5;
+    position: fixed;
+}
+
+.sidebar>div {
+    position: fixed;
+}
+
+#lgMenu>div,
+#lgMenulm2>div,
+#lgMenulm3>div {
+    width: 60%;
+    margin-top: 10%;
+    position: relative;
+    height: 90%;
+}
+
+.side-logo {}
+
+.side-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.side-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.side-links>a {
+    font-size: 2vh;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+.side-links>a.select,
+.side-links>a:hover {
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.side-info {
+    margin-top: 15vh;
+    font-size: 1.4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.side-info>a:hover {
+    font-weight: 600;
+}
+
+.side-foot {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.4vh;
+}
+
+.side-foot>div {
+    width: 3vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+    margin-bottom: 2vh;
+}
+
+.side-foot>div>img {
+    cursor: pointer;
+}
+.side-sub-links{
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+.side-sub-links>a{
+    
+}
+.side-x{
+    height: 7vh;
+    width: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    font-family: 'Gotham-Book';
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+.side-x:hover{
+    opacity: .7;
+}
+.side-close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*
+    ///////////////////////// end SIDEBAR/////////////////////////
+*/
+
+
+
+
+@media (max-width:768px) {
+    #lgMenu,
+    #lgMenulm2,
+    #lgMenulm3 {
+    width: 70%;
+}
+    .swiper-wrapper {
+        margin-bottom: 5vh;
+    }
+
+    .boton-equipo {
+        width: auto;
+        margin-bottom: 5vh;
+    }
+
+    .socio {
+        width: auto;
+        font-size: 2.35vh;
+        margin-bottom: 3vh;
+    }
+
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2vh;
+    }
+
+    .texto-sobre-iconos {
+        font-size: 2vh;
+    }
+
+    .lista-img>div:first-child {
+        width: auto;
+    }
+
+    .lista-img>div:first-child div {
+        font-size: 2vh;
+    }
+
+    .lista-img.estrategia {
+        gap: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .bloque-icono {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 2vh;
+        align-items: flex-start;
+    }
+
+    .bloque-icono>div {
+        width: 15vw;
+    }
+
+    .titulo-icono {
+        font-size: 2.35vh;
+        font-family: 'Gotham-Bold';
+    }
+
+    .texto-icono {
+        font-size: 2.35vh;
+        font-family: 'Gotham-Book';
+    }
+
+    .valores-2>div {
+        width: auto;
+    }
+
+    .v-texto {
+        font-size: 2.35vh;
+        margin-bottom: 5vh;
+    }
+
+    .bloque-v-textos {
+        gap: 0;
+    }
+
+    .valores-2 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .numero-verde {
+        font-size: 2.7vh;
+    }
+
+    .valores-1.lista-img>div:first-child>div {
+        font-size: 2.35vh;
+        align-items: flex-start;
+        flex-direction: column;
+        font-family: 'Gotham-Black';
+        margin-bottom: 5vh;
+    }
+
+    .lista-img>div:last-child {
+        width: auto;
+    }
+
+    .img-lista-valores {
+        margin-bottom: 0;
+        width: auto;
+        width: auto;
+        font-family: 'Gotham-Book';
+    }
+
+    .lista-img {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .titulo.verde p {
+        width: auto;
+    }
+
+    .titulo.izquierda {
+        width: 90%;
+    }
+
+    .container-small.white.white-video.capa {
+        margin-bottom: 5vh;
+    }
+
+    .container-small.white.white-video.capa::before {
+        height: 15vh;
+    }
+
+    .texto-sobre-circulos>div {
+        width: auto;
+    }
+
+    .texto-sobre-circulos {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .contenido-quienes-1 {
+        width: auto;
+    }
+
+    .logo-footer {
+        width: 60vw;
+    }
+
+    .textos-bloque {
+        width: 65vw;
+    }
+
+    .bloques-actualidad img {
+        width: 65vw;
+    }
+
+    .bloque-actualidad {
+        width: 75vw;
+        margin-inline: auto;
+    }
+
+    .video-home {
+        width: 80vw;
+    }
+
+    .container-small-width {
+        max-width: 90%;
+    }
+
+    .hero {
+        padding-top: 111px;
+        position: relative;
+    }
+
+    .nav {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hero>h1 {
+        width: 333px;
+        font-size: 44px;
+    }
+
+    .caja {
+        /* padding: 60px; */
+        /* width: 315px*/
+        padding: 0px;
+        width: 100%;
+        padding: 24px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .s-home-2 {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px; */
+    }
+
+    .bloques-actualidad {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .bloques-footer {
+        gap: 5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bloques-footer div {
+        width: 45%;
+        font-size: 12px;
+    }
+
+    .nav-img {
+        width: 163px;
+    }
+
+    .img-container-dunas {
+        width: auto;
+        margin-bottom: 35px;
+    }
+
+    .texto-dunas {
+        width: auto;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-dunas p {
+        font-size: 16px;
+    }
+
+    .titulo-caja-negra-hero {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .texto-caja-negra-hero {
+        font-size: 12px;
+    }
+
+    .caja .img-container {
+        width: 20px;
+        margin-bottom: 5px;
+    }
+
+    .s-home-1 {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .circulo {
+        width: 225px;
+        height: 225px;
+        margin-inline: auto;
+    }
+
+    .circulo-interior>p:first-child {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .circulo-interior>p:last-child {
+        font-size: 12px;
+    }
+
+    .texto-dunas button {
+        font-size: 18px;
+    }
+
+    .container-small.white.white-video::before {
+        height: 15vh;
+    }
+
+    .video-home div {
+        width: 10vh;
+    }
+
+    .s-home-3 {
+        margin-bottom: 0;
+    }
+
+    .s-home-4>div:nth-child(odd) {
+        padding-left: 0;
+    }
+
+    .s-home-4>div {
+        width: auto;
+    }
+
+    .bloque {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloque p {
+        height: auto;
+        font-size: 16px;
+        margin-top: 5%;
+    }
+
+    .boton-colores {
+        font-size: 18px;
+        margin-top: 10%;
+    }
+
+    .s-home-4>div:nth-child(even):not(:nth-child(2)) {
+        padding-right: 0;
+    }
+
+    .disclaimer {
+        line-height: 3vh;
+    }
+
+    .bloques-footer div p:first-child {
+        font-size: 12px;
+    }
+
+    .swiper {
+        padding-bottom: 40px !important;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 0px !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 16px !important;
+        height: 16px !important;
+        border-radius: 50% !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 22px !important;
+        height: 22px !important;
+        border-radius: 50% !important;
+    }
+
+
+    .swiper-negro .swiper-pagination-bullet {
+        background-color: transparent;
+        border: 1px solid black;
+    }
+
+    .swiper-negro .swiper-pagination-bullet-active {
+        background-color: black;
+    }
+
+    .swiper-blanco .swiper-pagination-bullet {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    .swiper-blanco .swiper-pagination-bullet-active {
+        background-color: white;
+    }
+
+    .bolitas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin-bottom: 5vh;
+    }
+
+    .bloques-actualidad>.bolitas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin-bottom: 5vh;
+        width: auto;
+    }
+
+    .blanca {
+        background-color: white;
+    }
+
+    .bloques-actualidad>.bolitas>.negra {
+        background-color: black;
+    }
+
+    .bolita.negra {
+        border: 1px solid white;
+    }
+
+    .bolita.blanca {
+        border: 1px solid black;
+    }
+
+    .footer div:last-child>p {
+        text-align: center;
+    }
+
+    .container-small.grey {
+        padding-bottom: 0px;
+    }
+
+    .footer div:last-child {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 1023px) and (max-width: 1439px) {
+    .container-small-width {
+        max-width: 960px;
+    }
+
+    .s-home-2 {
+        justify-content: space-evenly;
+    }
+
+    .titulo.izquierda {
+        width: 960px;
+    }
+}
+
+@media (min-width:1440px) {
+    .s-home-2 {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width:1920px) {
+    .s-home-2 {
+        justify-content: space-between;
+    }
+}
+
+
+.hidden {
+    display: none;
+}
+
+.no-display {}
+
+.invisible {
+    visibility: hidden;
+}
+
+.mtb_10vh {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.mt_10vh {
+    margin-top: 10vh;
+}
+
+.mb_10vh {
+    margin-bottom: 10vh;
+}
+
+.mtb_5vh {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.mt_5vh {
+    margin-top: 5vh;
+}
+
+.mb_5vh {
+    margin-bottom: 5vh;
+}
+
+.fs_165vh {
+    font-size: 1.65vh;
+}

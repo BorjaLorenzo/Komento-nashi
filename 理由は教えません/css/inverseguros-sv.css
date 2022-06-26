@@ -1,0 +1,222 @@
+.hero.pensiones {
+    background-image: url('../img/nuevo/Desktop/03_Areas_Negocio/05_Inverseguros_SV/Img_inverseguros.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.pensiones-bloque-1 {
+    font-family: 'Gotham-Book';
+    font-size: 1.35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-bloque {
+    width: 30%;
+}
+
+.sub-bloque.sub1 {
+    font-family: 'Gotham-Book';
+    font-size: 3.6vh;
+    text-align: right;
+}
+.sub-bloque.sub1>p>span{
+    font-family: 'Gotham-Black';
+}
+
+.sub-bloque.movil {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vh;
+}
+
+.sub-bloque.movil>p:first-child {
+    margin-bottom: 2vh;
+}
+
+.titulo.azul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3.6vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+
+.titulo.azul p {
+    width: 30vw;
+}
+.marron{
+    color: #866C6B;
+}
+.titulo.marron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3.6vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+
+.titulo.marron p {
+    width: auto;
+}
+
+.tipo-fondos-pensiones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.bloque-pensiones {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-bottom: 5vh;
+}
+
+.bloque-pensiones>div:first-child {
+    width: 50%;
+}
+
+.bloque-pensiones>div:last-child {
+    width: 50%;
+    margin-right: 5vh;
+}
+
+.bloque-pensiones p {
+    margin-top: 2vh;
+}
+
+.azul {
+    color: #6FB1C8;
+}
+
+.num {
+    font-family: 'Gotham-Book';
+}
+
+.bloque-texto-pensiones p:first-child {
+    font-size: 2.3vh;
+}
+
+.bloque-texto-pensiones p:last-child {
+    font-size: 1.35vh;
+    font-family: 'Gotham-Book';
+}
+
+.bloque-gestores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.bloque-gestor {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    justify-content: flex-start;
+    gap: 5vh;
+}
+
+.bloque-gestor-top {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.bloque-gestor-bot {}
+
+.top-img {
+    width: 40%;
+}
+
+.top-title {
+    width: 50%;
+}
+
+.f135vh {
+    font-size: 1.35vh;
+}
+
+.f120vh {
+    font-size: 1.20vh;
+}
+
+@media (max-width: 768px) {
+    .pensiones-bloque-1 {
+        flex-direction: column;
+    }
+
+    .sub-bloque {
+        width: auto;
+    }
+
+    .sub-bloque.sub1 {
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .sub-bloque.sub2 p:last-child {
+        margin-bottom: 2vh;
+    }
+
+    .sub-bloque.movil {
+        font-size: 2vh;
+    }
+
+    .titulo.azul p {
+        width: auto;
+    }
+
+    .tipo-fondos-pensiones {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .bloque-pensiones {
+        width: auto;
+    }
+
+    .bloque-pensiones>div:last-child {
+        margin-right: 0px;
+    }
+
+    .bloque-texto-pensiones p:first-child {
+        font-size: 3vh;
+    }
+
+    .bloque-texto-pensiones p:last-child {
+        font-size: 1.8vh;
+    }
+
+    .bloque-gestor {
+        width: auto;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .f135vh {
+        font-size: 2.35vh;
+    }
+
+    .top-img {
+        width: 20%;
+    }
+
+    .top-title {
+        width: auto;
+    }
+    .f120vh{
+        font-size: 1.9vh;
+    }
+}

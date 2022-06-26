@@ -1,0 +1,107 @@
+.hero.analisis {
+    background-image: url('../img/nuevo/Desktop/06_Documentacion/02_Notas_Analisis/Img_notas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    position: relative;
+}
+
+.bloque-prensa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prensa {
+    width: 30%;
+    font-family: 'Gotham-Book';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    position: relative;
+}
+.prensa>p:nth-child(3){
+    position:absolute;
+    bottom: 0px;
+    color: #836B67;
+}
+
+.prensa>div {}
+
+span {
+    font-family: 'Gotham-Bold';
+}
+
+.texto-prensa {
+    font-size: 1.4vh;
+    padding-bottom: 5vh;
+    font-family: 'Gotham-Bold';
+}
+input {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: black solid 1px;
+    padding: 3px;
+}
+
+
+@media (min-width:1440px) and (max-width:1600px){
+
+    .texto-prensa {
+        font-size: 2vh;
+        padding-bottom: 10vh;
+    }
+}
+@media (max-width:1024px) {
+    .pre-disclaimer{
+        width: auto;
+    }
+    .buscador{
+        width: auto;
+    }
+    .texto-prensa {
+        font-size: 2.3vh;
+        padding-bottom: 10vh;
+    }
+}
+@media (max-width:768px) {
+    .boton-colores {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.85vh;
+        margin-top: 2vh;
+    }
+
+    .buscador>select {
+        width: 80%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .buscador {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+
+    }
+
+    .pre-disclaimer {
+        width: auto;
+    }
+
+    .prensa {
+        width: auto;
+    }
+
+    .texto-prensa {
+        font-size: 2.4vh;
+    }
+}
